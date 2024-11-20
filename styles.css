@@ -1,0 +1,56 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #f0f0f0;
+}
+
+.container {
+    margin-top: 20px;
+    text-align: center;
+}
+
+label, input, button {
+    margin: 10px;
+}
+
+button {
+    padding: 10px 15px;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+#schedule {
+    margin-top: 20px;
+    width: 80%;
+    max-width: 600px;
+}
+
+.day {
+    padding: 10px;
+    margin: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.work-day {
+    background-color: #FFD700;
+}
+
+.rest-day {
+    background-color: #87CEEB;
+}
+
+.free-day {
+    background-color: #98FB98;
+}
